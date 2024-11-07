@@ -1,0 +1,63 @@
+/* Reset styles */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Login section styles */
+.login-section {
+	width: 100vw;
+	height: 100vh;
+	background: #000;
+}
+.login-section form {
+	height: 90vh;
+	padding: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.login-section form input {
+	padding: 20px;
+	margin: 8px 0;
+}
+.login-section form button {
+	padding: 10px 80px;
+	margin: 16px 0;
+	background: green;
+}
+
+/* Home page table styles */
+.homepage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow-x: auto;
+	height: 100vh;
+	background: rgb(238, 232, 232);
+}
+
+.homepage table {
+	border-collapse: collapse;
+	width: 80%; 
+	border: 5px solid black;
+}
+
+/* Table header cells */
+.homepage table thead td {
+	border: 1px solid black;
+	padding: 8px;
+}
+
+/* Table body rows */
+.homepage table tbody tr {
+	border: 1px solid black;
+}
+
+/* Table cells in body */
+.homepage table td {
+	border: 1px solid black;
+	text-align: left;
+	padding: 8px;
+}
